@@ -23,6 +23,7 @@ h1 {
 .flex {
     display: flex;
     gap: 8px;
+    align-items: center;
 }
 ul {
     list-style: none;
