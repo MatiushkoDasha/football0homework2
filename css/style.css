@@ -18,6 +18,7 @@ h1 {
 .flex-between {
     display: flex;
     justify-content: space-between;
+    
 }
 
 .flex {
@@ -33,7 +34,9 @@ section {
     margin: 21px 0;
 }
 footer {
+    padding: 8px 135px;
     background: #39930d;
+
 }
 
 .wrapper {
@@ -95,10 +98,11 @@ footer {
 }
 
 .block1 h2 {
+    text-transform: uppercase;
     min-width: 262px;
     font-size: 18px;
     color: #ffffff;
-    padding: 14px 19px;
+    padding: 9px 19px;
     background-color: #39930d;
 }
 
@@ -115,13 +119,18 @@ footer {
 }
 
 .block2 p {
+    line-height: 21px;
     font-size: 14px;
     margin-bottom: 18px;
     color: #343434;
 }
 
 .contacts p {
+    margin-top: 5px;
     color: #ffffff;
 }
 
+.contacts img {
+    margin-top: 2px;
+}
 
