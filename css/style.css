@@ -31,26 +31,25 @@ ul {
 }
 
 section {
-   padding: 21px 0;
+   padding: 21px;
 }
 
 footer {
-    padding: 8px 135px;
     background: #39930d;
-
+    padding: 8px 0;
 }
 
 .wrapper {
     margin: auto;
     max-width: 960px;
-    padding: 15px 16px;
+    padding: 0 16px;
 }
 
 .bg-white {
     background-color: white;
 }
 .header {
-   padding: 0 0 15px 0 ;;
+   padding: 15px 0 15px 0 ;;
 }
 
 .header p {
