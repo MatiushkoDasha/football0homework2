@@ -7,6 +7,7 @@ body {
     margin: 0;
     background: #f3f3f3;
     font-family: 'Arial';
+    cursor: url(../img/cursor.cur),default;
 }
 
 h1 {
@@ -19,6 +20,10 @@ h1 {
     display: flex;
     justify-content: space-between;
     
+}
+
+a {
+     cursor: url(../img/football.cur),default;
 }
 
 .flex {
