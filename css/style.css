@@ -53,6 +53,11 @@ footer {
 .bg-white {
     background-color: white;
 }
+
+.hover :hover {
+    color: #39930d;
+}
+
 .header {
    padding: 15px 0 15px 0 ;;
 }
