@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html {
+    font-size: 0.8px;
+}
+
 body {
     margin: 0;
     background: #f3f3f3;
@@ -11,10 +15,10 @@ body {
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 24rem;
     color: #39930d;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 20rem;
 }
 .flex-between {
     display: flex;
@@ -28,7 +32,7 @@ a {
 
 .flex {
     display: flex;
-    gap: 8px;
+    gap: 8rem;
     align-items: center;
 }
 ul {
@@ -36,18 +40,18 @@ ul {
 }
 
 section {
-   padding: 21px;
+   padding: 21rem;
 }
 
 footer {
     background: #39930d;
-    padding: 8px 0;
+    padding: 8rem 0;
 }
 
 .wrapper {
     margin: auto;
-    max-width: 960px;
-    padding: 0 16px;
+    max-width: 960rem;
+    padding: 0 16rem;
 }
 
 .bg-white {
@@ -59,7 +63,7 @@ footer {
 }
 
 .header {
-   padding: 15px 0 15px 0 ;;
+   padding: 15rem 0 15rem 0 ;;
 }
 
 .header p {
@@ -73,19 +77,19 @@ footer {
 }
 .ball b {
     display: block;
-    font-size: 24px;
+    font-size: 24rem;
     color: #39930d;
 }
 .number {
     align-items: center;
-    gap: 29px;
+    gap: 29rem;
 }
 .number img {
-    margin-right: 3px;
+    margin-right: 3rem;
 }
 
 .img img {
-  padding-bottom: 10px;
+  padding-bottom: 10rem;
 }
 
 .big img {
@@ -99,48 +103,79 @@ footer {
 }
 
 .small img {
-    width: 225px;
-    height: 120px;
+    max-width:225rem;
+    max-height: 120rem;
 }
 
 .block1 {
-    max-width: 300px;
+    max-width: 300rem;
 }
 
 .block1 h2 {
     text-transform: uppercase;
-    min-width: 262px;
-    font-size: 18px;
+    min-width: 262rem;
+    font-size: 18rem;
     color: #ffffff;
-    padding: 9px 19px;
+    padding: 9rem 19rem;
     background-color: #39930d;
 }
 
 .block1 ul {
-    padding: 20px;
+    padding: 20rem;
 }
 
 .block1 a {
-    font-size: 14px;
-    line-height: 30px;
+    font-size: 14rem;
+    line-height: 30rem;
     text-decoration: underline;
     text-transform: uppercase;
     color: #343434;
 }
 
 .block2 p {
-    line-height: 21px;
-    font-size: 14px;
-    margin-bottom: 18px;
+    line-height: 21rem;
+    font-size: 14rem;
+    margin-bottom: 18rem;
     color: #343434;
 }
 
 .contacts p {
-    margin-top: 5px;
+    margin-top: 5rem;
     color: #ffffff;
 }
 
 .contacts img {
-    margin-top: 2px;
+    margin-top: 2rem;
 }
 
+@media screen  and (min-width: 768rem){
+    html {
+        font-size: .9px;
+    }
+
+}
+
+@media screen  and (min-width: 1024rem){
+    html {
+        font-size: 1px;
+    }
+
+}
+
+@media screen  and (min-width: 1400rem){
+    html {
+        font-size: 1.1px;
+    }
+}
+
+@media screen  and (min-width: 1920rem){
+    html {
+        font-size: 1.5px;
+    }
+}
+
+@media screen  and (min-width: 2200rem){
+    html {
+        font-size: 1.7px;
+    }
+}
