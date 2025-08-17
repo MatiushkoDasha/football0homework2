@@ -20,10 +20,10 @@ h1 {
     font-weight: bold;
     margin-bottom: 20rem;
 }
+
 .flex-between {
     display: flex;
     justify-content: space-between;
-    
 }
 
 a {
@@ -40,7 +40,8 @@ ul {
 }
 
 section {
-   padding: 21rem;
+flex-wrap: wrap;
+   padding-top: 21rem;
 }
 
 footer {
@@ -58,21 +59,25 @@ footer {
     background-color: white;
 }
 
-.hover :hover {
+.hover:hover {
     color: #39930d;
 }
 
 .header {
-   padding: 15rem 0 15rem 0 ;;
+   padding: 15rem 0 15rem 0;
+   flex-wrap: wrap;
+   gap: 20rem;
 }
 
 .header p {
+    font-size: 14px;
     color: #5a5a5a;
 }
 
 .header a {
     color: #5a5a5a;
     font-weight: bold;
+    font-size: 14px;
     text-decoration: none;
 }
 .ball b {
@@ -94,6 +99,9 @@ footer {
 
 .big img {
     width: 100%;
+    min-height: 200rem;
+    object-fit: cover;
+    object-position: 75%;
 }
 
 .small ul {
@@ -101,10 +109,15 @@ footer {
     justify-content: space-between;
     
 }
+.small {
+    flex-wrap: wrap;
+}
 
 .small img {
-    max-width:225rem;
     max-height: 120rem;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: 100%;
 }
 
 .block1 {
@@ -140,6 +153,7 @@ footer {
 }
 
 .contacts p {
+    font-size: 14rem;
     margin-top: 5rem;
     color: #ffffff;
 }
@@ -148,33 +162,36 @@ footer {
     margin-top: 2rem;
 }
 
-@media screen  and (min-width: 768rem){
+@media screen  and (min-width: 768px){
     html {
         font-size: .9px;
     }
 
+    section {
+        flex-wrap: nowrap;
+    }
 }
 
-@media screen  and (min-width: 1024rem){
+@media screen  and (min-width: 1024px){
     html {
         font-size: 1px;
     }
 
 }
 
-@media screen  and (min-width: 1400rem){
+@media screen  and (min-width: 1400px){
     html {
         font-size: 1.1px;
     }
 }
 
-@media screen  and (min-width: 1920rem){
+@media screen  and (min-width: 1920px){
     html {
         font-size: 1.5px;
     }
 }
 
-@media screen  and (min-width: 2200rem){
+@media screen  and (min-width: 2200px){
     html {
         font-size: 1.7px;
     }
