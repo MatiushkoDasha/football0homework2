@@ -70,14 +70,14 @@ footer {
 }
 
 .header p {
-    font-size: 14px;
+    font-size: 14rem;
     color: #5a5a5a;
 }
 
 .header a {
     color: #5a5a5a;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 14rem;
     text-decoration: none;
 }
 .ball b {
@@ -93,40 +93,38 @@ footer {
     margin-right: 3rem;
 }
 
-.img img {
-  padding-bottom: 10rem;
-}
-
 .big img {
     width: 100%;
     min-height: 200rem;
+    padding-bottom: 10rem;
     object-fit: cover;
     object-position: 75%;
 }
 
 .small ul {
-    display: flex;
-    justify-content: space-between;
-    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10rem;  
 }
+
 .small {
     flex-wrap: wrap;
 }
 
 .small img {
     max-height: 120rem;
-    max-width: 100%;
+    width: 100%;
     object-fit: cover;
     object-position: 100%;
 }
 
 .block1 {
-    max-width: 300rem;
+    width: 100%;
 }
+
 
 .block1 h2 {
     text-transform: uppercase;
-    min-width: 262rem;
     font-size: 18rem;
     color: #ffffff;
     padding: 9rem 19rem;
@@ -169,6 +167,14 @@ footer {
 
     section {
         flex-wrap: nowrap;
+    }
+
+    .small ul {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .block1 {
+        width: 300rem;
     }
 }
 
