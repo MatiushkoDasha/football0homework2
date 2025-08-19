@@ -112,7 +112,7 @@ footer {
 }
 
 .small img {
-    max-height: 120rem;
+    height: 100%;
     width: 100%;
     object-fit: cover;
     object-position: 100%;
@@ -136,7 +136,7 @@ footer {
 }
 
 .block1 a {
-    font-size: 14rem;
+    font-size: 13rem;
     line-height: 30rem;
     text-decoration: underline;
     text-transform: uppercase;
@@ -160,6 +160,15 @@ footer {
     margin-top: 2rem;
 }
 
+@media screen  and (min-width: 600px){
+    
+    .small ul {
+        grid-template-columns: repeat(4, 1fr);
+    } 
+
+
+}
+
 @media screen  and (min-width: 768px){
     html {
         font-size: .9px;
@@ -173,8 +182,12 @@ footer {
         grid-template-columns: repeat(4, 1fr);
     }
 
+    section {
+        gap: 10rem;
+    }
     .block1 {
         width: 300rem;
+
     }
 }
 
